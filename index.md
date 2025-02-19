@@ -11,7 +11,7 @@ This project presents a pipeline for identifying and classifying newswire articl
 
 ## 📂 Key Resources
 - [Hugging Face Models](https://huggingface.co/mikemcrae25/newswire_classifiers)
-- [Project Documentation]({{ site.baseurl }}/README)
+- [Project Documentation](README.md)
 
 ---
 
