@@ -29,11 +29,42 @@ This documentation provides a pipeline for identifying and classifying newswire 
 Three BERT-based classifiers (`AP`, `UPI`, `NEA`) were trained on 4,000 labeled articles each (1,000 per wire service, 3,000 from other sources). Training used headlines and the first 100 characters of articles and ran on a TPU (v2-8) over 4 epochs.
 
 **Metrics from Hugging Face Models:**
-| Model | Accuracy | Precision | Recall | F1 Score |
-|-------|----------|----------|-------|----------|
-| **AP** | 0.9925 | 0.9926 | 0.9925 | 0.9925 |
-| **UPI** | 0.9999 | 0.9999 | 0.9999 | 0.9999 |
-| **NEA** | 0.9875 | 0.9880 | 0.9875 | 0.9876 |
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Accuracy</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1 Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>AP</strong></td>
+      <td>0.9925</td>
+      <td>0.9926</td>
+      <td>0.9925</td>
+      <td>0.9925</td>
+    </tr>
+    <tr>
+      <td><strong>UPI</strong></td>
+      <td>0.9999</td>
+      <td>0.9999</td>
+      <td>0.9999</td>
+      <td>0.9999</td>
+    </tr>
+    <tr>
+      <td><strong>NEA</strong></td>
+      <td>0.9875</td>
+      <td>0.9880</td>
+      <td>0.9875</td>
+      <td>0.9876</td>
+    </tr>
+  </tbody>
+</table>
+
 
 **Hugging Face Models:**
 - **AP, UPI and NEA Classifiers:** [AP Model](https://huggingface.co/mikemcrae25/newswire_classifiers)
