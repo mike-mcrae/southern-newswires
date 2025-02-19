@@ -1,2 +1,4 @@
 title: Southern Newswires
 theme: minima
+markdown: kramdown
+show_downloads: false
