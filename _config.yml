@@ -1,0 +1,2 @@
+echo 'title: Southern Newswires' > _config.yml
+echo 'theme: minima' >> _config.yml
