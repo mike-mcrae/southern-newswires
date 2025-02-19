@@ -1,6 +1,6 @@
 ---
 title: Southern Newswires
-layout: default
+layout: minima
 ---
 
 # Southern Newswires
