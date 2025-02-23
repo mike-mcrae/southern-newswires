@@ -42,7 +42,7 @@ Three BERT-based classifiers (`AP`, `UPI`, `NEA`) were trained on 4,000 labeled 
 | **NEA** | 0.9875 | 0.9880 | 0.9875 | 0.9876 |
 
 **Hugging Face Models:**
-- **AP, UPI and NEA Classifiers:** [AP Model](https://huggingface.co/mikemcrae25/newswire_classifiers)
+- **AP, UPI and NEA Classifiers:** [Classifiers](https://huggingface.co/mikemcrae25/newswire_classifiers)
 ---
 
 ## Usage Instructions
