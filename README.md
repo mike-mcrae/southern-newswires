@@ -66,11 +66,9 @@ print("AP Newswire Classification:", label)
 
 ## Availability Status
 - **Dataset and Scripts:** *Coming soon.*
-- **Models:** Available on Hugging Face.
+- **Models:** Available on [Hugging Face](https://huggingface.co/mikemcrae25/newswire_classifiers).
 
 ## References
-- Dell et al. (2024). *American Stories Project.*
-- Hugging Face: [Newswire Classifiers](https://huggingface.co/mikemcrae25/newswire_classifiers)
 
 ---
 
